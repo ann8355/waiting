@@ -5,17 +5,17 @@ import Home from './pages/Home.vue'
 Vue.use(Router)
 
 export default new Router({
-  // mode: 'hash',
-  mode: 'history',
+  mode: 'hash',
+  // mode: 'history',
   routes: [
     {
       path: '/',
       name: 'home',
       component: Home
-    },
-    {
-      path: '*',
-      redirect: '/'
     }
+    // {
+    //   path: '*',
+    //   redirect: '/'
+    // }
   ]
 })
