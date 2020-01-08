@@ -1,0 +1,37 @@
+{
+  "name": "waiting",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "yakiniku-serve": "vue-cli-service serve --mode yakiniku",
+    "yakiniku-build": "vue-cli-service build --mode yakiniku"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "register-service-worker": "^1.6.2",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1",
+    "webpos-toolkit": "git+https://public:public@sys.lifeplus.tw:3000/public/LifePlus.WebPOS.Toolkit.git",
+    "vue-js-modal": "^1.3.13",
+    "axios": "^0.18.0",
+    "vue-i18n": "^7.6.0",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-plugin-pwa": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

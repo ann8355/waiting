@@ -1,0 +1,9 @@
+@import 'color';
+@import 'fontSize';
+
+.btn {
+    padding: 1rem;
+    color: $white;
+    border-radius: 0.8vh;
+    line-height: 0;
+}

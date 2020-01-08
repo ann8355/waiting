@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+@import 'CSSReset';
+@import 'addon/_main';
+
+body {
+  font-family: 'Helvetica', 'Arial', 'LiHei Pro', 'Microsoft YaHei UI', 'Microsoft JhengHei', 'sans-serif';
+  user-select: none;
+  font-smooth: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-align: center;
+  background-color: $tertiary;
+}
+a {
+  text-decoration: none;
+  text-decoration-color: initial;
+}
