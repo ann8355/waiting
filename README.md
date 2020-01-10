@@ -1,5 +1,5 @@
 # waiting
-waiting service for mobile pwa version
+waiting service for mobile vue-cli3 pwa version
 
 ## Demo
 https://ann8355.github.io/waiting/index.html
